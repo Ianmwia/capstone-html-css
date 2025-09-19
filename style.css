@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    line-height: 1.6;
+}
+/*navbar*/
+.navbar {
+    background: linear-gradient(to right,#D4AF37, rgb(51, 42, 42));
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+@media only screen and (max-width:768px) {
+    .navbar ul{
+        visibility: hidden;
+    }
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+}
+
+/*hero*/
+.hero{
+    background: url("assets/safari-hero.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+/*main section navigate*/
+.articles, .locations, .travel-tips {
+    border: 1px solid #D4AF37;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+}
+/*footer*/
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.navigation ul, a{
+    list-style: none;
+    text-decoration: none;
+    color: #D4AF37;
+}
+.navigation-social{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.links{
+    margin-top: 10px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
