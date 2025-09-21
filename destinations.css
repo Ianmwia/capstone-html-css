@@ -1,0 +1,57 @@
+.image-hero {
+    background: url('/assets/nairobi-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px
+}
+
+.image-row {
+  display: flex;       /* places images side by side */
+  gap: 10px;           /* space between images */
+}
+
+.image-row img {
+  width: 33.33%;       /* divide space equally for 3 images */
+  height: auto;
+  object-fit: cover;
+}
+.province {
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 20px;
+}
+.place {
+    
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media only screen and (max-width:768px){
+    .place{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width:425px){
+    .place{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.card-place {
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.card-place img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 6px;
+}
