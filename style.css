@@ -57,14 +57,42 @@ ul li a {
     background-size: cover;
     height: 100vh;
     width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
 }
-/*main section navigate*/
-.articles, .locations, .travel-tips {
-    border: 1px solid #D4AF37;
-    border-radius: 8px;
-    margin: 20px;
-    padding: 20px;
+
+.about-hero {
+    max-width: 600px;
+    margin-bottom: 30px;
+    color: black;
 }
+
+.cta-button {
+    font-size: 1.5rem;
+    padding: 12px 30px;
+    background-color: #D4AF37;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cta-button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+
 /*footer*/
 .footer {
     background-color: black;
