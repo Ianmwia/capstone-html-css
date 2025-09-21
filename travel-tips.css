@@ -1,0 +1,16 @@
+section {
+    margin: 20px;
+    padding: 16px;
+}
+article {
+    margin-bottom: 20px;
+}
+article p {
+    margin-bottom: 1em;
+}
+article h1, h2 {
+    color: #ac8e34;
+}
+dt::first-letter, dd::first-letter {
+    font-weight: bold;
+}
