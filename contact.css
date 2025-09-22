@@ -8,7 +8,7 @@ article {
 .contact-text p {
     margin-bottom: 1em;
 }
-.contact h1, h2 {
+.contact h1{
     color: #ac8e34;
 }
 .contact-form form {
@@ -17,10 +17,22 @@ article {
     gap: 16px;
     max-width: 500px;
     margin: 0 auto;
+    position: relative;
+    padding: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #483b2c, #977d32);
+}
+
+.contact-form h2{
+    text-align: center;
+    color: #06312a;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .contact-form label {
     font-weight: bold;
+    color: white;
 }
 
 .contact-form input, .contact-form input, .contact-form textarea {
