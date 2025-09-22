@@ -112,8 +112,35 @@ ul li a {
 }
 .links{
     margin-top: 10px;
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-around;
 }
 .copyright{
     display: flex;
     justify-content: center;
+}
+.navigation p{
+    color: #D4AF37;
+}
+.footer .navigation nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer .navigation nav ul li a:hover {
+    transform: scale(1.1);
+    color: #D4AF37;
+    text-decoration: underline;
+}
+.social .links a i {
+    font-size: 1em;
+    transition: transform 0.3s ease-out;
+}
+.social .links a:hover i {
+    transform: scale(1.1);
+    cursor: pointer;
 }
