@@ -11,6 +11,3 @@ article p {
 article h1, h2 {
     color: #ac8e34;
 }
-dt::first-letter, dd::first-letter {
-    font-weight: bold;
-}
