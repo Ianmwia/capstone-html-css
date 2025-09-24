@@ -11,3 +11,10 @@ article p {
 article h1, h2 {
     color: #ac8e34;
 }
+.faq h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+.faq-details p{
+    color: #ac8e34;
+}
